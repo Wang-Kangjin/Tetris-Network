@@ -1,5 +1,0 @@
-all : dztserver dztclinet
-dztserver: dzt.c
-	gcc -o TetrisServer TetrisServer.c -lpthread -lncurses
-dztclinet: dztclinet.c
-	gcc -o TetrisClinet TetrisClinet.c -lpthread -lncurses
